@@ -12,7 +12,7 @@ export const TransactionHistory = ({items}) => {
     </tr>
   </thead>
 
-  <tbody>
+  <tbody className={css.transactionHistory}>
 
 {items.map(
     (item)=>(
