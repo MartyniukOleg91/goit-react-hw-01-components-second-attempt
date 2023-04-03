@@ -1,9 +1,19 @@
+import  css  from "./FriendList.module.css";
+
 export const FriendList = ({ friends }) => {
   return (
-<ul>
+<ul className={css.friendList}>
  {friends.map((friend)=>(
+  
     <li key={friend.id}>
-    <span ></span>
+
+{friend.isOnline ? (
+        <span className={css.statusOnline}></span>
+      ) : (
+        <span className={css.statusOffline}></span>
+      )}
+
+
     <img src={friend.avatar} alt="User avatar" width="48" />
     <p >{friend.name}</p>
   </li>
@@ -11,10 +21,3 @@ export const FriendList = ({ friends }) => {
 </ul>
   )
 };
-
-// {
-//     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-//     "name": "Mango",
-//     "isOnline": true,
-//     "id": 1812
-//   },
