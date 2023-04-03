@@ -1,6 +1,9 @@
 li{
   list-style: none;
 }
+ul{
+  padding-inline-start: 0px;
+}
 
 .profile {
     background-color: #ffffff;
@@ -36,7 +39,7 @@ li{
   
   .location {
     color: #8a8a8a;
-    /* margin-bottom: 20px; */
+
   }
   
   .stats {

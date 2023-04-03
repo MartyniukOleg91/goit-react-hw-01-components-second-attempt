@@ -2,7 +2,8 @@ import {Profile} from './Profile/Profile'
 import user from '../json/user.json';
 
 
-export const App = () => {
+export const App = (props) => {
+  console.log(props);
   return (
     <div>
       <Profile
