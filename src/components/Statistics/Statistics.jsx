@@ -1,7 +1,7 @@
 import css from './Statistics.module.css'
 
 export const Statistics = ({title, stats}) => {
-    console.log(stats);
+
     const bgColors = ['#d15050', '#b4790c', '#45970e', '#1495ff', '#e41461'];
     return(
         <section className={css.statistics}>
