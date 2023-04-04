@@ -14,7 +14,7 @@ import transactions from "../json/transactions.json"
 export const App = () => {
 
   return (
-    <div>
+    <>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -29,6 +29,6 @@ export const App = () => {
 
 <TransactionHistory items={transactions}/>
 
-    </div>
+    </>
   );
 };
