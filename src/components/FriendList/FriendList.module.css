@@ -30,14 +30,17 @@
     background-color: red;
     margin-bottom: 20px;
     border-color: black;
+    
 }
 
 .status{
     border-color: black;
     border: 4mm ridge rgba(41, 41, 39, 0.6);
     padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+   justify-content: center;
     align-items: center;
+   
 }
