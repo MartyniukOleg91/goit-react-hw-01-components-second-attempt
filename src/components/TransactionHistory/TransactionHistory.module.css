@@ -6,8 +6,22 @@
     margin: auto;
     text-align: center;
     margin-top: 30px;
+    
 }
 
 tr:nth-child(even) {
     background-color: #dce5ff;
+  }
+
+  .invoice{
+    color: red;
+  }
+  .payment{
+color:#0f46ec
+  }
+  .withdrawal{
+color: brown;
+  }
+  .deposit{
+color: green;
   }
