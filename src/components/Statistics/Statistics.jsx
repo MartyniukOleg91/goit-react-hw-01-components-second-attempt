@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 const bgColors = ['#d15050', '#b4790c', '#45970e', '#1495ff', '#e41461'];
@@ -21,4 +22,14 @@ export const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+
+Statistics.protoTypes = {
+  title: PropTypes.string.isRequired,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ),
 };
