@@ -6,8 +6,7 @@ const bgColors = ['#d15050', '#b4790c', '#45970e', '#1495ff', '#e41461'];
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
-
+      {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
         {stats.map((data, index) => (
           <li
