@@ -1,46 +1,42 @@
-.friendList{
-    background-color: #ffffff;
-    width: 300px;
-    border-radius: 7px;
-    box-shadow: 0 0 6px 0 #adacac;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    
+.friendList {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 7px;
+  box-shadow: 0 0 6px 0 #adacac;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.statusOnline{
-    display:flex;
-    justify-content: center;
-    display: block;
-    width: 20px;
-    height: 20px;;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    background-color: green;
+.statusOnline {
+  display: flex;
+  justify-content: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: green;
 }
 
-.statusOffline{
-    display: block;
-    width: 20px;
-    height: 20px;;
-    border-radius: 50%;
-    background-color: red;
-    margin-bottom: 20px;
-    border-color: black;
-    
+.statusOffline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 20px;
+  border-color: black;
 }
 
-.status{
-    border-color: black;
-    border: 4mm ridge rgba(41, 41, 39, 0.6);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 100%;
-    display: flex;
-   justify-content: center;
-    align-items: center;
-   
+.status {
+  border-color: black;
+  border: 4mm ridge rgba(41, 41, 39, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

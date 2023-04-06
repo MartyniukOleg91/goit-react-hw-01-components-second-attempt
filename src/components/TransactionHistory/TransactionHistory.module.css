@@ -1,27 +1,26 @@
-.transactionHistory{
-    background-color: #ffffff;
-    width: 500px;
-    border-radius: 7px;
-    box-shadow: 0 0 6px 0 #adacac;
-    margin: auto;
-    text-align: center;
-    margin-top: 30px;
-    
+.transactionHistory {
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 7px;
+  box-shadow: 0 0 6px 0 #adacac;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
 }
 
 tr:nth-child(even) {
-    background-color: #dce5ff;
-  }
+  background-color: #dce5ff;
+}
 
-  .invoice{
-    color: red;
-  }
-  .payment{
-color:#0f46ec
-  }
-  .withdrawal{
-color: brown;
-  }
-  .deposit{
-color: green;
-  }
+.invoice {
+  color: red;
+}
+.payment {
+  color: #0f46ec;
+}
+.withdrawal {
+  color: brown;
+}
+.deposit {
+  color: green;
+}
