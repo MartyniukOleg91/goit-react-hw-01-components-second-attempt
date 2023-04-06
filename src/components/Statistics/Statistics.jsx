@@ -1,7 +1,8 @@
 import css from './Statistics.module.css';
 
+const bgColors = ['#d15050', '#b4790c', '#45970e', '#1495ff', '#e41461'];
+
 export const Statistics = ({ title, stats }) => {
-  const bgColors = ['#d15050', '#b4790c', '#45970e', '#1495ff', '#e41461'];
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title}</h2>
