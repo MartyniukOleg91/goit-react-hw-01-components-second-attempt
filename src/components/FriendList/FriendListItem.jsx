@@ -14,12 +14,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 export default FriendListItem;
 
 FriendListItem.propTypes = {
-  dataFriends: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
-    })
-  ),
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
 };
